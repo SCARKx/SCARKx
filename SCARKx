@@ -7,7 +7,7 @@ local Section = Tab:NewSection("MADE BY SCARKx")
 Section:NewLabel("WELCOME")
 
 
-Section:NewButton("slap battles", "the gui", function()
+Section:NewButton("HITBOX GUI", "the gui", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/RobloxScripts/main/HitboxExpander.lua"))()
 end)
 
@@ -34,4 +34,9 @@ end)
 
 Section:NewButton("RADEON HUB", "GUI", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RadeonScripts/RadeonHubMain/main/MainRobloxExploit"))()
+end)
+
+
+Section:NewButton("SLAP BATTLES", " GUI", function()
+loadstring(game:HttpGet("https://pastefy.app/l92CLbw1/raw"))()
 end)
