@@ -1,0 +1,37 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("SCARKx", "Ocean")
+
+local Tab = Window:NewTab("GAME HUB")
+local Section = Tab:NewSection("MADE BY SCARKx")
+
+Section:NewLabel("WELCOME")
+
+
+Section:NewButton("slap battles", "the gui", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/RobloxScripts/main/HitboxExpander.lua"))()
+end)
+
+
+Section:NewButton("ghost hub", "idc", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+end)
+
+
+Section:NewButton("tiger hub", "gui", function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Tiger-hub-x-v35-17788"))()
+end)
+
+
+Section:NewButton(" Mm2", "gui", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"))()
+end)
+
+
+Section:NewButton("KORONIS HUB", "GUI", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/nf-36/Koronis/refs/heads/main/Scripts/Loader.lua"))()
+end)
+
+
+Section:NewButton("RADEON HUB", "GUI", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RadeonScripts/RadeonHubMain/main/MainRobloxExploit"))()
+end)
